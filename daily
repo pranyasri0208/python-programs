@@ -1,0 +1,37 @@
+print("My Daily Routine")
+#printing the time i wake up
+print("i wake up at 7:00 am")
+#printing the time i have breakfast
+print("i have breakfast at 7:30 am")
+#printing the time i go to school
+print("i get to school at 7:40 am")
+#printing how long my morning break lasts till the first period starts
+print("my morning break lasts from 8:00 am till 8:40 am")
+#printing the time my first period starts
+print("my first period starts at 8:45 am")
+#printing how long each period lasts
+print("each period lasts for 40 minutes")
+#printing how long each break time lasts
+print("each break time lasts for 10 minutes")
+#printing the time i have lunch
+print("i have lunch at 12:00pm")
+#printing how long my nap time lasts
+print("my nap time lasts for 35 minutes")
+#printing the time i start my afternoon classes
+print("i start my afternoon classes at 1:10pm")
+#printing the time school ends
+print("school ends at 3:30pm")
+#printing the time i get to home
+print("i get home at 3:45pm")
+#printing the time i have bath
+print("i have bath at 4:30pm")
+#printing the time i do my homework
+print("i do my homework at 5:00pm")
+#printing the time i have dinner
+print("i have dinner at 7:00pm")
+#printing the time i can do whatever i want
+print("i can do whatever i want at 8:00pm")
+#printing the time i go to sleep
+print("i go to sleep at 9:00pm")
+#printing the total time i had classes at school
+print("total time i had classes at school:",7*40,"minutes")
