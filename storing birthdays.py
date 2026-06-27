@@ -1,5 +1,5 @@
 
-printing my_birthdays list
+#printing my_birthdays list
 print(my_birthdays)
 print("my friends and family's birthdays are:")
 my_birthdays =[birthday1, birthday2, birthday3, birthday4, birthday5]
