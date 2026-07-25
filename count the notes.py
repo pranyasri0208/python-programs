@@ -1,0 +1,12 @@
+#taking the total amount as input from the user
+amount=int(input("please enter total amount for withdrawal: "))
+
+#calculating the number of notes of different denominations
+note_1=amount//100
+note_2=(amount%100)//50
+note_3=((amount%100)%50)//10
+note_4=(((amount%100)%50)%10)//1
+print("notes of 100 rupees:", note_1)
+print("notes of 50 rupees:", note_2)
+print("notes of 10 rupees:", note_3)
+print("notes of 1 rupee:", note_4)
