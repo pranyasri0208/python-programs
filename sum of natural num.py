@@ -4,5 +4,5 @@ i=1
 while i<=n:
     sum=sum+i
     i=i+1
-    
-    print("sum of natural numbers is ",sum)
+
+print("sum of natural numbers is ",sum)
