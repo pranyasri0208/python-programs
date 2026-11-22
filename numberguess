@@ -1,0 +1,23 @@
+import random
+playing=True
+number=random.randint(1,100)
+print("i will generate a number from 1 to 100, and you should guess it one a a time, so choose wisely!")
+print("the game ends if you guess the number correctly!")
+c=0
+if number%2==0:
+    print("Hint: the number is even!")
+else:
+    print("Hint: the number is odd!")
+while playing:
+    guess=int(input("give me your best guess! \n"))
+    c+=1
+    if number==guess:
+        print("you win the game in",c,"attempts!")
+        print("the number was",number)
+        break
+    else:
+        if number>guess:
+            print("guess a higher number!")
+        else:
+            print("guess a lower number!")  
+print("Congradulations!!!!!!!!")      
